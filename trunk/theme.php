@@ -43,7 +43,7 @@
  *
  * @since 2021-12-25
  */
-declare( strict_types = 1 ); // ｡･:*:･ﾟ★.
+declare( strict_types = 1 );
 namespace WP_Groove\Skeleton_Theme;
 
 /**
@@ -51,19 +51,21 @@ namespace WP_Groove\Skeleton_Theme;
  *
  * @since 2021-12-15
  */
-use Clever_Canyon\Utilities\{STC as U};
-use Clever_Canyon\Utilities\OOP\{Offsets, Generic, Error, Exception, Fatal_Exception};
-use Clever_Canyon\Utilities\OOP\Abstracts\{A6t_Base, A6t_Offsets, A6t_Generic, A6t_Error, A6t_Exception};
-use Clever_Canyon\Utilities\OOP\Interfaces\{I7e_Base, I7e_Offsets, I7e_Generic, I7e_Error, I7e_Exception};
+use Clever_Canyon\{Utilities as U};
 
 /**
- * WP Groove utilities.
+ * Framework.
  *
  * @since 2021-12-15
  */
-use WP_Groove\Framework\Utilities\{STC as W};
-use WP_Groove\Framework\Theme\Abstracts\{AA6t_Theme};
-use WP_Groove\Framework\Utilities\OOP\Abstracts\{AA6t_App};
+use WP_Groove\{Framework as WPG};
+
+/**
+ * Theme.
+ *
+ * @since 2021-12-15
+ */
+use WP_Groove\{Skeleton_Theme as WP};
 
 // </editor-fold>
 
@@ -88,7 +90,7 @@ require_once __DIR__ . '/vendor/autoload.php';
  *
  * @since 2021-12-15
  */
-Theme::add_instance_hooks(
+WP\Theme::add_instance_hooks(
 	__FILE__,
 	'Skeleton Theme', // @name
 	'wpgroove-skeleton-theme', // @slug
