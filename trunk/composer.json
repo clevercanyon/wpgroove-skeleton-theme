@@ -1,5 +1,5 @@
 {
-	"name"              : "clevercanyon/wpgroove-skeleton-theme.trunk",
+	"name"              : "clevercanyon/wpgroove-skeleton-theme",
 	"prefer-stable"     : true,
 	"minimum-stability" : "dev",
 	"config"            : {
@@ -13,7 +13,7 @@
 	},
 	"autoload"          : {
 		"psr-4" : {
-			"WP_Groove\\Skeleton_Theme\\" : "./src/classes"
+			"WP_Groove\\Skeleton_Theme\\" : [ "./src/classes" ]
 		}
 	}
 }
