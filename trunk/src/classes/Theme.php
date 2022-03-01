@@ -46,7 +46,7 @@ use WP_Groove\{Skeleton_Theme as WP};
  *
  * @since 2021-12-15
  */
-class Theme extends WPG\A6t\Theme {
+final class Theme extends WPG\A6t\Theme {
 	/**
 	 * On `after_setup_theme` hook.
 	 *
