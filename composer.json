@@ -40,6 +40,9 @@
 						"namespace_crux" : "WP_Groove\\Skeleton_Theme",
 						"name"           : "Skeleton Theme"
 					}
+				},
+				"webpack" : {
+					"assetDirs" : [ "../../../trunk/src/assets" ]
 				}
 			}
 		}
