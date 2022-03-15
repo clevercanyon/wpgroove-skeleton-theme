@@ -56,24 +56,4 @@ final class Theme extends WPG\A6t\Theme {
 		parent::setup_hooks();
 		// Nothing for now.
 	}
-
-	/**
-	 * Runs on `after_setup_theme` hook.
-	 *
-	 * @since 2021-12-15
-	 */
-	public function on_after_setup_theme() : void {
-		parent::on_after_setup_theme();
-		// Nothing for now.
-	}
-
-	/**
-	 * Runs on `init` hook.
-	 *
-	 * @since 2021-12-15
-	 */
-	public function on_init() : void {
-		parent::on_init();
-		// Nothing for now.
-	}
 }
