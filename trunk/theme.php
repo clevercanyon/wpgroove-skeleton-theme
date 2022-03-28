@@ -11,7 +11,7 @@
 // <editor-fold desc="Strict types, namespace, use statements, and other headers.">
 
 /**
- * Theme Name: Skeleton Theme
+ * Theme Name: {{name: Skeleton Theme}}
  * Theme URI: https://wpgroove.com/product/skeleton-theme
  *
  * Description: This is a skeleton directory for new WP Groove WordPress themes.
@@ -92,7 +92,7 @@ require_once __DIR__ . '/vendor/autoload.php';
  */
 WP\Theme::add_instance_hooks(
 	__FILE__,
-	'Skeleton Theme',          // @name
+	'{{name: Skeleton Theme}}', // @name
 	'wpgroove-skeleton-theme', // @slug
-	'1.0.0'                    // @version
+	'1.0.0' // @version
 );

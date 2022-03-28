@@ -38,7 +38,7 @@
 
 						"layout"         : "wp-theme",
 						"namespace_crux" : "WP_Groove\\Skeleton_Theme",
-						"name"           : "Skeleton Theme"
+						"name"           : "{{name: Skeleton Theme}}"
 					}
 				},
 				"webpack" : {

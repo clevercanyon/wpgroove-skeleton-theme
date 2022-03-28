@@ -1,4 +1,4 @@
-=== Skeleton Theme ===
+=== {{name: Skeleton Theme}} ===
 
 Contributors: clevercanyon
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
@@ -10,11 +10,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Skeleton used by engineers at WP Groove. It's for new WordPress themes.
+{{description: Skeleton used by engineers at WP Groove. It's for new WordPress themes.}}
 
 == Description ==
 
-Skeleton used by engineers at WP Groove. Makes it easy to create a new theme using the WP Groove framework.
+{{description: Skeleton used by engineers at WP Groove. Makes it easy to create a new theme using the WP Groove framework.}}
 
 == Installation ==
 

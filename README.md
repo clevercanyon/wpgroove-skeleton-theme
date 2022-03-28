@@ -1,3 +1,3 @@
-# WP Groove WordPress Theme: Skeleton
+# WP Groove WordPress Theme: {{name: Skeleton}}
 
-This is a skeleton directory for new WP Groove WordPress themes.
+{{description: This is a skeleton directory for new WP Groove WordPress themes.}}
